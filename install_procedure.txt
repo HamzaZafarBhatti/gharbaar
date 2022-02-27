@@ -1,0 +1,10 @@
+Download zip file
+Run "composer install" command.
+Create DB named "gharbaar"
+Run "php artisan migrate" command.
+Rename .env.example to .env
+Run "php artisan migrate" command.
+Superadmin seeder, User seeder, and Blogger seeder has been added.
+"php artisan db:seed --class=SuperAdminSeeder"
+"php artisan db:seed --class=UserSeeder"
+"php artisan db:seed --class=BloggerSeeder" 
